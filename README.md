@@ -62,11 +62,26 @@ The file content:
 ```sudo systemctl restart apache2
 ```
 
-### apache benchmark
-```ab -n 1000 -c 100 http://127.0.0.1/
+### Apache benchmark
+
+```
+ab -n 1000 -c 100 http://127.0.0.1/
+```
+### Check access log 
+
+```
+tail -f /var/log/apache2/access.log
+```
+### Set up React app
+
+```
+npx create-react-app access-log-app
+cd access-log-app
+npm start
 ```
 
-tail -f /var/log/apache2/access.log```
+
+
 
 
 
