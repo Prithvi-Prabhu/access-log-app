@@ -5,7 +5,7 @@ Create a react based web application that renders a user interface through which
 
 ## Installation + Environment Setup
 
-Used VirtualBox hypervisor to set up linux based VM on my laptop by following the documentation guide. Working with Ubuntu 22.04.3. Found this [video guide][(https://youtu.be/-CIepTSsaNE?si=hgXYRCr4Qvt3FW8y) useful.
+Used VirtualBox hypervisor to set up linux based VM on my laptop by following the documentation guide. Working with Ubuntu 22.04.3. Found this [video guide](https://youtu.be/-CIepTSsaNE?si=hgXYRCr4Qvt3FW8y) useful.
 
 ## Configuring apache2 as my reverse proxy
 
