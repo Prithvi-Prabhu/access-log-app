@@ -68,7 +68,7 @@ def get_filtered_logs(start_time: Optional[datetime], end_time: Optional[datetim
 
 # API endpoint to get filtered logs
 
-@app.get("/filtered-logs/")
+@app.get("/access-logs/")
 
 async def read_filtered_logs(
 
@@ -80,7 +80,7 @@ async def read_filtered_logs(
 
     logs = get_filtered_logs(start_time, end_time)
 
-    return {"filtered_logs": logs}
+    return {"access_logs": logs}
 
 
 
