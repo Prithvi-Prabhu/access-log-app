@@ -32,7 +32,7 @@ sudo systemctl restart apache2
 ```
 
 ```
-sudo nano /etc/apache2/sites-available/000-default.conf
+sudo nano /etc/apache2/sites-available/reverse-proxy.conf
 ```
 
 The file content:
@@ -57,6 +57,9 @@ The file content:
             Order deny,allow
             Allow from all
         </Proxy>
+  CustomLog /var/log/apache2/access.log common
+
+</VirtualHost>
 ```
 
 ```sudo systemctl restart apache2
