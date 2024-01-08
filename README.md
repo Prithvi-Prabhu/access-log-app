@@ -43,8 +43,8 @@ The file content:
         ServerName 127.0.0.1
 
 
-        ProxyPass / http://localhost:8080/
-        ProxyPassReverse / http://localhost:8080/
+        ProxyPass / http://127.0.0.1/
+        ProxyPassReverse / http://127.0.0.1/
 
         RedirectMatch ^/$ /index.html
 
